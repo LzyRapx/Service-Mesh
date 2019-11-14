@@ -1,10 +1,13 @@
-1. go mod init xxxxx
+#### 1. go mod init xxxxx
+
 **What happened:**
 ```
 go: downloading k8s.io/api v0.0.0
      k8s.io/api@master: unknown revision v0.0.0
 ```
+
 **Solved: add these dependencies to go.mod**
+
 ```
 require k8s.io/kubernetes v1.15.0
 
