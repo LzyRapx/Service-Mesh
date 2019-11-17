@@ -4,7 +4,7 @@
 kubectl label namespace xxxx istio-injection=enabled
 kubectl get namespace -L istio-injection
 ```
-取消自动注入
+取消自动注入 sidecar:
 ```
 kubectl label namespace istio-system istio-injection=disabled --overwrite
 kubectl get namespace -L istio-injection
