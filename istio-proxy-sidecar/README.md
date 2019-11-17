@@ -1,4 +1,4 @@
-#### 1. 自动注入 sidecar (namespace 级别)
+### 1. 自动注入 sidecar (namespace 级别)
 
 ```
 kubectl label namespace xxxx istio-injection=enabled
